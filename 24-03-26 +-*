@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int plus(a, b)
+{
+return a+b;
+}
+int minus(a, b)
+{
+    return a-b;
+}
+int multi(a, b)
+{
+    return a*b;
+}
+int divide(a, b)
+{
+    return a/b;
+}
+
+void main()
+{
+    int c=10;
+    int d=20;
+    int result=0;
+    result = plus(c, d);
+    printf("%d + %d = %d\n", c, d, result);
+    result = minus(c, d);
+    printf("%d - %d = %d\n", c, d, result);
+    result = multi(c, d);
+    printf("%d * %d = %d\n", c, d, result);
+    result = divide(c, d);
+    printf("%d / %d = %d", c, d, result);
+    return 0;
+}
